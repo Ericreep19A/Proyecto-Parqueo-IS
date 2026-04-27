@@ -1,0 +1,2 @@
+-- Script para realizar backup de la base de datos
+-- Procedimiento de respaldo y recuperación
