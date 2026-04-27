@@ -1,0 +1,1 @@
+// Layout - Componente contenedor principal
