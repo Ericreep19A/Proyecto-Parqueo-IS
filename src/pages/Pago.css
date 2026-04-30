@@ -1,0 +1,71 @@
+﻿.pago-container {
+  min-height: 100vh;
+  background-color: #1a1a2e;
+  padding: 24px;
+}
+.pago-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.pago-titulo {
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: bold;
+}
+.pago-subtitulo {
+  color: #aaa;
+  font-size: 14px;
+  margin-top: 4px;
+}
+.pago-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  max-width: 500px;
+  margin: 0 auto 24px;
+}
+.pago-estado {
+  text-align: center;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.pago-estado.pagado {
+  background: #2d6a4f;
+  color: white;
+}
+.pago-estado.pendiente {
+  background: #c1121f;
+  color: white;
+}
+.detalle-fila {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+.detalle-fila:last-child { border-bottom: none; }
+.detalle-label {
+  color: #888;
+  font-size: 14px;
+}
+.detalle-valor {
+  color: #1a1a2e;
+  font-size: 14px;
+  font-weight: bold;
+}
+.btn-volver {
+  display: block;
+  margin: 0 auto;
+  padding: 12px 32px;
+  background: #e63946;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn-volver:hover { background: #c1121f; }

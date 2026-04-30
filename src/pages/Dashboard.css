@@ -1,0 +1,130 @@
+﻿.dash-container {
+  min-height: 100vh;
+  background-color: #1a1a2e;
+  padding: 24px;
+}
+.dash-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.dash-titulo {
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: bold;
+}
+.dash-correo {
+  color: #aaa;
+  font-size: 14px;
+  margin-top: 4px;
+}
+.dash-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.dash-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+}
+.dash-card.solvente { background: #2d6a4f; }
+.dash-card.solvente .card-valor { color: #ffffff; }
+.dash-card.no-solvente { background: #c1121f; }
+.dash-card.no-solvente .card-valor { color: #ffffff; }
+.card-label {
+  font-size: 12px;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 8px;
+}
+.dash-card.solvente .card-label,
+.dash-card.no-solvente .card-label { color: #ddd; }
+.card-valor {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1a1a2e;
+}
+.dash-qr {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.qr-hint {
+  color: #666;
+  font-size: 13px;
+  margin-top: 12px;
+}
+.dash-espacios {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+}
+.espacios-grid {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+.espacio-item {
+  background: #e63946;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.btn-parqueo {
+  margin-top: 16px;
+  width: 100%;
+  padding: 12px;
+  background: #1a1a2e;
+  color: white;
+  border: 2px solid #e63946;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-parqueo:hover {
+  background: #e63946;
+}
+
+.btn-pago {
+  margin-top: 8px;
+  width: 100%;
+  padding: 12px;
+  background: #2d6a4f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-pago:hover {
+  background: #1b4332;
+}
+
+.btn-pago {
+  margin-top: 8px;
+  width: 100%;
+  padding: 12px;
+  background: #2d6a4f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn-pago:hover {
+  background: #1b4332;
+}
