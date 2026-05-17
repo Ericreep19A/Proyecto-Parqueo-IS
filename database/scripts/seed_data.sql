@@ -1,0 +1,2 @@
+-- Script para insertar datos iniciales
+-- Población de datos de prueba y configuración básica

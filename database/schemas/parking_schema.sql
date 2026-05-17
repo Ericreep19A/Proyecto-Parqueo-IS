@@ -1,0 +1,2 @@
+-- Esquema principal del sistema de parqueo
+-- Define todas las tablas, relaciones y constraints
